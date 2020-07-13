@@ -1,16 +1,15 @@
 using System;
-using Exercise.PingPong;
 
 namespace Exercise
 {
-    class Program
+    public class Program
     {
-      static void Main()
+      public static void Main()
       {
-        Console.WriteLine("Please enter a positive integer: ");
+        Console.WriteLine("Please enter a positive integer greater than 0: ");
         string input = Console.ReadLine();
         int number = int.Parse(input);
-        PongPing(number);
+        PingPong.PongPing(number);
       }
     }
 }

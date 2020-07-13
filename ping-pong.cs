@@ -1,8 +1,8 @@
 using System;
 
-namespace Exercise.PingPong
+namespace Exercise
 {
-  class PingPong
+  public class PingPong
   {
     public static void PongPing(int num)
     {
@@ -10,7 +10,7 @@ namespace Exercise.PingPong
     // All numbers divisible by 3 are replaced by "ping".
     // All numbers divisible by 5 are replaced by "pong"
     // All numbers divisible by both 3 and 5 are replaced by "ping-pong"
-      for (int i = 0; i < num; i++)
+      for (int i = 1; i <= num; i++)
       {
         if (i % 3 == 0 && i % 5 == 0)
         {
